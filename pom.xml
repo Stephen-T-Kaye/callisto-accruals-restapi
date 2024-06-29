@@ -18,7 +18,7 @@
         <repository>
             <id>github-packages</id>
             <name>Callisto github packages</name>
-            <url>https://maven.pkg.github.com/UKHomeOffice/*</url>
+            <url>https://maven.pkg.github.com/Stephen-T-Kaye/*</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -30,6 +30,10 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<jacoco.version>0.8.7</jacoco.version>
+		<!-- Sonar Properties -->
+        <sonar.organization>stephen-t-kaye</sonar.organization>
+        <sonar.projectKey>stephen-t-kaye_callisto-accruals-restapi</sonar.projectKey>
+        <sonar.projectName>stephen-t-kaye_callisto-accruals-restapi</sonar.projectName>
 		<sonar.language>java</sonar.language>
 		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <checkstyle-maven-plugin.version>3.2.0</checkstyle-maven-plugin.version>

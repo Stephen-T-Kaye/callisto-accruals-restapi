@@ -1,7 +1,7 @@
 version: '3.3'
 
 services:
-  callisto-accruals-restapi:
+  accruals-restapi:
     image: maven:3.8.3-openjdk-17
     entrypoint: ["mvn", "spring-boot:run",
                  "-Duser.home=/Users/1000",
@@ -11,8 +11,8 @@ services:
     user: "1000"
     working_dir: '/app'
     ports:
-      - "50200:9090"
-      - "5005:5005"
+      - "60200:9090"
+      - "60205:5005"
     volumes:
       - ./:/app
       - $HOME/.m2:/Users/1000/.m2 # Required for jparest dependencies (artifactory)
