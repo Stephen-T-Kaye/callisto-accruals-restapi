@@ -66,11 +66,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - image: "callisto-timecard-database"
+          - image: "callisto-accruals-database"
             artifact: false
             dockerfile: db/Dockerfile
             context: "./db"
-          - image: "callisto-timecard-application"
+          - image: "callisto-accruals-application"
             artifact: 
               name: jar-file
               path: "target"
