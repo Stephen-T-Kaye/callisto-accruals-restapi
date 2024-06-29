@@ -1,7 +1,7 @@
 version: '3.3'
 
 services:
-  callisto-accruals-restapi:
+  accruals-restapi:
     image: maven:3.8.3-openjdk-17
     entrypoint: ["mvn", "spring-boot:run",
                  "-Duser.home=/Users/1000",
