@@ -1,0 +1,19 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "004-add-dev-test-data",
+        "author": "S Kaye",
+        "context": "dev",
+        "changes": [
+          {
+            "sqlFile": {
+              "dbms": "postgresql",
+              "path": "sql/004-add-dev-test-data.sql"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

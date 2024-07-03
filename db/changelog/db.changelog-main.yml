@@ -5,3 +5,5 @@ databaseChangeLog:
       file: changelog/002-add-person-id-column-to-accrual-table.json
   - include:
       file: changelog/003-function-get-impacted-accruals.json
+  - include:
+      file: changelog/004-add-dev-test-data.json
