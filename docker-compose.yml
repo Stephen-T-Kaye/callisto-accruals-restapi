@@ -41,6 +41,7 @@ services:
       - "--password=Welcome"
       - "--changeLogFile=changelog/db.changelog-main.yml"
       - "--liquibaseSchemaName=accruals"
+      - "--contexts=dev"
       - "update"
     networks:
       - callisto
